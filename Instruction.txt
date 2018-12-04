@@ -1,0 +1,6 @@
+this is insruction file.
+  this app help to find teachers (tuition) in your city according to the subject.
+  if you clone this project you can try the sample city as Mathura and subject as Mathematics.
+  
+  
+  If you need any clarification, can email - manika.agrawal_cs16@gla.ac.in
