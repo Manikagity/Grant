@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shubham.ducat.grantsample.Details_activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@color/blue"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.053"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.033" />
+
+            <ImageView
+                android:id="@+id/image_profile_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/user"
+                android:layout_marginTop="25sp"
+                />
+
+
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_marginTop="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="follow +"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.934"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.14" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="following"
+                android:textSize="23sp"
+                android:textColor="@color/blue"/>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.783" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rate This Teacher"
+                android:textSize="25sp"
+                android:layout_marginTop="25sp"
+                android:textColor="@color/blackishgrey"/>
+
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:numStars="5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.111"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.337" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Average ratings "
+                android:textSize="23sp"
+                android:textColor="@color/blackishgrey"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="avgrate"
+                android:textSize="18sp"
+                android:textColor="@color/blackishgrey"
+                android:layout_marginTop="5sp"
+                android:id="@+id/average_rating"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 rate"
+                android:textSize="18sp"
+                android:textColor="@color/blackishgrey"
+                android:layout_marginTop="5sp"
+                android:id="@+id/five_rating"/>
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4 rate"
+            android:textSize="18sp"
+            android:textColor="@color/blackishgrey"
+            android:layout_marginTop="5sp"
+            android:id="@+id/four_rating"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 rate"
+                android:textSize="18sp"
+                android:textColor="@color/blackishgrey"
+                android:layout_marginTop="5sp"
+                android:id="@+id/three_rating"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2 rate"
+                android:textSize="18sp"
+                android:textColor="@color/blackishgrey"
+                android:layout_marginTop="5sp"
+                android:id="@+id/two_rating"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 rate"
+                android:textSize="18sp"
+                android:textColor="@color/blackishgrey"
+                android:layout_marginTop="5sp"
+                android:id="@+id/one_rating"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:layout_marginTop="25sp"
+                android:textSize="23sp"
+                android:textColor="@color/blackishgrey"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="email"
+                android:textSize="18sp"
+                android:textColor="@color/colorBackground"
+                android:layout_marginTop="10sp"
+                android:id="@+id/email_profile"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Number"
+                android:layout_marginTop="25sp"
+                android:textSize="23sp"
+                android:textColor="@color/blackishgrey" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="phone"
+                android:textSize="18sp"
+                android:textColor="@color/colorBackground"
+                android:layout_marginTop="10sp"
+                android:id="@+id/phone_profile"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address of Coaching"
+                android:textSize="23sp"
+                android:layout_marginTop="25sp"
+                android:textColor="@color/blackishgrey"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="address"
+                android:textSize="18sp"
+                android:layout_marginTop="10sp"
+                android:textColor="@color/blackishgrey"
+                android:id="@+id/address_profile"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subjects taught:"
+                android:textSize="23sp"
+                android:layout_marginTop="25sp"
+                android:textColor="@color/blackishgrey"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="sub"
+                android:textSize="18sp"
+                android:layout_marginTop="10sp"
+                android:textColor="@color/blackishgrey"
+                android:id="@+id/subject_profile"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get Directions"
+                android:textAllCaps="false"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="20sp"
+                android:tooltipText="google maps should be downloaded"
+                android:id="@+id/button_directions"/>
+
+
+
+        </TableLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

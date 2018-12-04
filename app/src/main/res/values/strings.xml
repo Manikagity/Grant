@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Grantsample</string>
+    <string-array name="sub">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Mathematics</item>
+        <item>Science</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Boilogy</item>
+        <item>EVS</item>
+        <item>Computer</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>Python</item>
+        <item>Social Studies</item>
+        <item>History</item>
+        <item>Geography</item>
+        <item>Civics</item>
+        <item>Accountancy</item>
+        <item>Business Studies</item>
+        <item>Economics</item>
+        <item>All Subjects till 8th Standard</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
